@@ -301,7 +301,7 @@
             </div>
             <!-- ========== Form Here ========== -->
             <div class="contact_form">
-                <form class="form-body" action="http://firstportfolioafride.000webhostapp.com/afride/action.php" method="post">
+                <form class="form-body" action="action.php" method="post">
                     <div class="nameNmail">
                         <div class="input_section size">
                             <p>

@@ -39,7 +39,7 @@ if (isset($_POST["submit"])) {
         </div>";
 
         try {
-            //$mailer->SMTPDebug  = 3;
+            $mailer->SMTPDebug  = 3;
             $mailer -> isSMTP();
             $mailer -> Host = /*'smtp.gmail.com'*/ 'smtp.elasticemail.com';
             $mailer -> SMTPAuth = true;

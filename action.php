@@ -41,12 +41,12 @@ if (isset($_POST["submit"])) {
         try {
             $mailer->SMTPDebug  = 3;
             $mailer -> isSMTP();
-            $mailer -> Host = /*'smtp.gmail.com'*/ 'smtp.elasticemail.com';
+            $mailer -> Host = /*'smtp.gmail.com'*/ 'smtp.mail.yahoo.com';
             $mailer -> SMTPAuth = true;
-            $mailer -> Username = /*'maskfreedom093@gmail.com'*/ 'maskhere@no-reply.com';
-            $mailer -> Password = /*"QwerAsdf@#12"*/ "D9BF40DF3F9A3592C705D9EF7C6CD21DBEFF";
+            $mailer -> Username = /*'maskfreedom093@gmail.com'*/ 'afridehossain@yahoo.com';
+            $mailer -> Password = /*"QwerAsdf@#12"*/ "asdqwe@#12";
             $mailer -> SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-            $mailer -> Port = '2525';
+            $mailer -> Port = '	465';
 
             $mailer -> setFrom('maskhere@no-reply.com');
             $mailer -> addAddress('asafridehossain142@gmail.com');
